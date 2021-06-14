@@ -50,6 +50,126 @@ NightTEAM =  "شبّيي اﻟ̣̣פﻟ̣̣و 𖠙 😿💔"
 Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
 return false
 end
+if text == 'اترخص'  then
+NightTEAM =  "روح اطمس عيني🤣💞" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'رايح انام'  then
+NightTEAM =  "مندبش🥺💞" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'احبك'  then
+NightTEAM =  "وبو الواتس 🌚💞" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'احبج'  then
+NightTEAM =  "يارقم هاي منهن🌚" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'صعد'  then
+NightTEAM =  "شيصعدني وفف 🥺💞" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'اخ'  then
+NightTEAM =  "هاها شني 😂🌚" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'هزي'  then
+NightTEAM =  "شعري نملة گمل🐸" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'اركص'  then
+NightTEAM =  "تعبت من الهز🐸" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'انزع'  then
+NightTEAM =  "منا لوادم حب" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'احبك'  then
+NightTEAM =  "موكدي ولحسن🌚💞" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'شفتك'  then
+NightTEAM =  "هاك خمسة وسكت" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'اركض'  then
+NightTEAM =  "شدها لتطيح🤣🐸" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'صدك تحجي'  then
+NightTEAM =  "وحك لباسك" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'احسن مسلسل'  then
+NightTEAM =  "فايكنك متتعوض" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'هاشني'  then
+NightTEAM =  "نايم كاعد" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'اكلك'  then
+NightTEAM =  "كلي وماكل لحد" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'تعبتني'  then
+NightTEAM =  "بسهلمرة صدك جذب" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'تعال'  then
+NightTEAM =  "اهوو لطش شتريد اجيت" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'روح'  then
+NightTEAM =  "دروح عمو روح" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'علراسي'  then
+NightTEAM =  "وفف تعال 🐸💞" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'اجيت'  then
+NightTEAM =  "نورت ضلع" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'سالم'  then
+NightTEAM =  "سالم روحك اني💞" 
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'هاولك'  then
+NightTEAM = " هاينغل 🐸💞"
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
+if text == 'عيوني'  then
+NightTEAM =  "عيونك بس اليه 🥺"
+Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
+return false
+end
 if text == 'باي' or text == 'بااي' or text == 'اروح' or text == 'اروح احسن' or text == 'اولي احسن' or text == 'راح اروح' or text == 'باي انام' then 
 NightTEAM =  "أُرٌجُعُ عٍيدِهآآ مٍوو تنِْسةه 𖠙 🤤♥️"
 Ali_Night(msg.chat_id_, msg.id_, 1, NightTEAM, 1, 'md') 
