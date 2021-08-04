@@ -108,7 +108,7 @@ local File = io.open('./'..Night..'.json', "w")
 File:write(GetJson)
 File:close()
 local abbas = 'https://api.telegram.org/bot' .. TokenBot .. '/sendDocument'
-local curl = 'curl "' .. abbas .. '" -F "chat_id='..DevId..'" -F "document=@'..Night..'.json' .. '" -F "caption=⌁︙نسخه تلقائيه تحتوي على ↫ '..#list..' مجموعه"'
+local curl = 'curl "' .. abbas .. '" -F "chat_id='..DevId..'" -F "document=@'..Night..'.json' .. '" -F "caption=⌁︙يحتوي الملف على ↫ '..#list..' مجموعه"'
 io.popen(curl)
 io.popen('fm -fr '..Night..'.json')
 AliNight:set(Night.."Abs:AutoFile:Time",os.date("%x"))

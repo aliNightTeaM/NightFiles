@@ -4,11 +4,11 @@ if ChatType == 'sp' or ChatType == 'gp'  then
 if text then 
 tdcli_function({ID = "GetUser",user_id_ = msg.sender_user_id_},function(arg,result)
 if result.id_ then 
-local abbs = AliNight:get("NightTEAM:User"..result.id_)
+local abbs = AliNight:get("NightTeaM:User"..result.id_)
 if not result.username_ then 
 if abbs then 
 Ali_Night(msg.chat_id_, msg.id_, 1, "حذف معرفه خمطو بسرعه، 😹💔 \nهذا معرفه @"..abbs.."", 1, 'html')
-AliNight:del("NightTEAM:User"..result.id_) 
+AliNight:del("NightTeaM:User"..result.id_) 
 end
 end
 if result.username_ then 
@@ -22,7 +22,7 @@ local abs_text = {
 abbss = math.random(#abs_text)
 Ali_Night(msg.chat_id_, msg.id_, 1, abs_text[abbss], 1, 'html')
 end  
-AliNight:set("NightTEAM:User"..result.id_, result.username_) 
+AliNight:set("NightTeaM:User"..result.id_, result.username_) 
 end
 end
 end,nil) 

@@ -4,24 +4,24 @@ if ChatType == 'sp' or ChatType == 'gp'  then
 if text then 
 tdcli_function({ID = "GetUser",user_id_ = msg.sender_user_id_},function(arg,result)
 if result.id_ then 
-local abbs = devali:get("NightTEAM:Name"..result.id_)
+local abbs = AliNight:get("NightTeaM:Name"..result.id_)
 if not result.first_name_ then 
 if abbs then 
-devali:del("NightTEAM:Name"..result.id_) 
+AliNight:del("NightTeaM:Name"..result.id_) 
 end
 end
 if result.first_name_ then 
 if abbs and abbs ~= result.first_name_ then 
-local ali_text = {
+local abs_text = {
 "اسمك "..result.first_name_.." ليش غيرته 🌚😹",
 "وفف اسمكك الجديد يشكك، 🤤♥️ ",
 "ليش غيرت اسمك "..result.first_name_.."\n قطيت احد حبي ؟ 🌚😹",
 "اسمك "..result.first_name_.." فد شي وين زخرفته ؟، 🤤♥️", 
 }
-abbss = math.random(#ali_text)
-Dev_ali(msg.chat_id_, msg.id_, 1, ali_text[abbss], 1, 'html')
+abbss = math.random(#abs_text)
+Ali_Night(msg.chat_id_, msg.id_, 1, abs_text[abbss], 1, 'html')
 end  
-devali:set("NightTEAM:Name"..result.id_, result.first_name_)  
+AliNight:set("NightTeaM:Name"..result.id_, result.first_name_)  
 end
 end
 end,nil) 
